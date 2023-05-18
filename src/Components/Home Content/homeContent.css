@@ -1,0 +1,194 @@
+.body-content{
+    height: 600px;
+    background-image: url(../../assets/image/BG.png);
+    padding-bottom: 0;
+    background-repeat: no-repeat;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fyd{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+    /* or 117% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.paragraph{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.lg-screen-search{
+    display: block;
+}
+.sm-screen-search{
+    display: none;
+    padding: 1rem;
+}
+@media only screen and (max-width: 375px)  {
+    .body-content{
+        width: 100%;
+        height: 300px;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-image: url(../../assets/image/BG.png);
+        background-size: 100% 100%;
+        border-radius: 0;
+        display: flex;
+        justify-content: normal;
+
+    }
+    .fyd{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: left;
+        padding-left: 3%;
+        padding-right: 20%;
+        color: #FFFFFF;
+    }
+    .paragraph{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 5%;
+        display: flex;
+        /* align-items: flex-start; */
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .lg-screen-search{
+        display: none;
+    }
+    .sm-screen-search{
+        display: block;
+        padding: 0.3rem 0.3rem;
+    }
+    .log-button{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .btn1 {
+        background: transparent!important;
+        color: #FFFFFF;
+        border: 0.1rem solid #FFFFFF;
+        border-radius: 0.3rem;
+        padding: 2px 20px;
+    }
+    .btn2 {
+        background: #1F53B9;
+        color: #FFFFFF;
+        border: 0.1rem solid #FFFFFF;
+        border-radius: 0.3rem;
+        padding: 2px 20px;
+    }  
+}
+@media only screen and (max-width: 992px)  {
+    .fyd{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 70px;
+        /* or 117% */
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .paragraph{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .lg-screen-search{
+        display: block;
+    }
+    .sm-screen-search{
+        display: none;
+        padding: 1rem;
+    }  
+}   
+    @media only screen and (max-width: 375px)  { 
+        .fyd{
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: left;
+            padding-left: 3%;
+            padding-right: 20%;
+            color: #FFFFFF;
+        }
+        .paragraph{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
+            padding-left: 3%;
+            padding-right: 5%;
+            display: flex;
+            /* align-items: flex-start; */
+            text-align: left;
+            color: #FFFFFF;    
+        }
+        .lg-screen-search{
+            display: none;
+        }
+        .sm-screen-search{
+            display: block;
+            padding: 0.3rem 0.3rem;
+        }
+        .log-button{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .btn1 {
+            background: transparent!important;
+            color: #FFFFFF;
+            border: 0.1rem solid #FFFFFF;
+            border-radius: 0.3rem;
+            padding: 2px 20px;
+        }
+        .btn2 {
+            background: #1F53B9;
+            color: #FFFFFF;
+            border: 0.1rem solid #FFFFFF;
+            border-radius: 0.3rem;
+            padding: 2px 20px;
+        }
+    }
